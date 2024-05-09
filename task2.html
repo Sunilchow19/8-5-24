@@ -1,0 +1,112 @@
+<html>
+    <head>
+
+           <style>
+            #b{
+                         border-radius: 30px ;
+                         background-color: rgb(89, 154, 228) ;
+                        
+                         animation-name: blueball;
+                         animation-duration: 500ms;
+                         animation-iteration-count: 7;
+                          height: 30px;
+                          width: 30px;
+                         display: inline-block;
+                         animation-direction: alternate;
+                         left: 30px;
+                         top: 70px;
+                         
+                         
+                         
+        }
+        @keyframes blueball {
+
+            from{bottom: 42px;}
+            to{ top: 41px;}
+            
+        }
+
+
+        #r{
+            border-radius: 30px;
+            background-color: red;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            animation-name: re;
+            animation-duration: 525ms;
+     
+            animation-direction: alternate;
+            animation-iteration-count: 7;
+            left: 22%;
+            top: 70px;
+            /* animation-delay: 700ms; */
+        }
+        @keyframes re {
+            
+            /* from{top: 45px;}
+            to{bottom: 40px;} */
+            from{bottom: 42px;}
+            to{ top: 41px;}
+        }
+        #g{
+            border-radius: 30px;
+            background-color: rgb(38, 255, 0);
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            animation-name: gr;
+            animation-duration: 550ms;
+     
+            animation-direction: alternate;
+            animation-iteration-count: 7;
+            left: 35%;
+            top: 70px;
+            /* animation-delay: 1500ms; */
+        }
+        @keyframes gr {
+            
+            /* from{top: 45px;}
+            to{bottom: 40px;} */
+            from{bottom: 42px;}
+            to{ top: 41px;}
+        }
+        #y{
+            border-radius: 30px;
+            background-color: rgb(255, 221, 0);
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            animation-name: ye;
+            animation-duration: 575ms;
+     
+            animation-direction: alternate;
+            animation-iteration-count: 7;
+            left: 48%;
+            top: 70px;
+            /* animation-delay: 2500ms; */
+        }
+        @keyframes ye {
+            
+            /* from{top: 45px;}
+            to{bottom: 40px;} */
+            from{bottom: 42px;}
+            to{ top: 41px;}
+        }
+
+
+           </style>
+
+
+
+
+    </head>
+    <body>
+        <div style="background-color: rgb(198, 187, 187);width: 300px;height: 200px;position: relative;">
+            <span id="b" style="position: absolute;"></span>
+            <span id="r"></span>
+            <span id="g"></span>
+            <span id="y"></span>
+        </div>
+    </body>
+</html>
